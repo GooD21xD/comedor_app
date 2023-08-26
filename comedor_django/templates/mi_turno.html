@@ -1,3 +1,5 @@
+{% load static %}  <!-- Agrega esto al principio para cargar los archivos estáticos -->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,11 +10,7 @@
     rel="stylesheet"
     href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback"
   />
-  {% load static %}
-  <link
-    rel="stylesheet"
-    href="{% static 'plugins/fontawesome-free/css/all.min.css' %}"
-  />
+  <link rel="stylesheet" href="{% static 'plugins/fontawesome-free/css/all.min.css' %}" />
   <link rel="stylesheet" href="{% static 'dist/css/adminlte.min.css' %}" />
   <style>
     .register-page2 {
@@ -29,12 +27,12 @@
   </style>
   <link href="{% static 'css/main.16aef5d8.chunk.css' %}" rel="stylesheet" />
 </head>
-<body class="sidebar-mini layout-navbar-fixed layout-fixed sidebar-closed">
-  <div class="wrapper" id="root"></div>
-  <script src="{% static 'plugins/jquery/jquery.min.js' %}"></script>
-  <script src="{% static 'plugins/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
-  <script src="{% static 'dist/js/adminlte.min.js' %}"></script>
-  <script src="{% static 'dist/js/demo.js' %}"></script>
+  <body class="sidebar-mini layout-navbar-fixed layout-fixed sidebar-closed">
+    <div class="wrapper" id="root"></div>
+    <script src="{% static 'plugins/jquery/jquery.min.js' %}"></script>
+    <script src="{% static 'plugins/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+    <script src="{% static 'dist/js/adminlte.min.js' %}"></script>
+    <script src="{% static 'dist/js/demo.js' %}"></script>
     <script>
       !(function (c) {
         function e(e) {
@@ -175,7 +173,7 @@
         l();
       })([]);
     </script>
-     <script src="{% static 'js/2.eddfae78.chunk.js' %}"></script>
-     <script src="{% static 'js/main.3f6bd316.chunk.js' %}"></script>
-   </body>
-</html>
+    <script src="{% static 'js/2.eddfae78.chunk.js' %}"></script>
+    <script src="{% static 'js/main.a2492c6c.chunk.js' %}"></script>
+  </body>
+  </html>
